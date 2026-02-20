@@ -473,3 +473,266 @@ tr:hover td {
     grid-template-columns: 1fr;
   }
 }
+/* Add to ServicePage.css - Cloud Hosting Specific */
+/* Compact Cloud Hosting Styles */
+
+.page-hero-small {
+  background: linear-gradient(135deg, #0b1120 0%, #1a1f35 100%);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.hero-title-small {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.hero-description-small {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Pricing Section Compact */
+.pricing-section-compact {
+  padding: 1.5rem 0;
+  background: #f8fafc;
+}
+
+.section-title-small {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+/* Billing Toggle Small */
+.billing-toggle-small {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  padding: 0.3rem;
+  border-radius: 30px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toggle-btn-small {
+  flex: 1;
+  padding: 0.4rem 1rem;
+  border: none;
+  background: transparent;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn-small.active {
+  background: #4f46e5;
+  color: white;
+}
+
+.save-badge-small {
+  background: #10b981;
+  color: white;
+  font-size: 0.6rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 20px;
+  margin-left: 0.3rem;
+}
+
+/* Pricing Grid Compact */
+.pricing-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pricing-card-compact {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  border: 1px solid #e5e7eb;
+}
+
+.pricing-card-compact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.pricing-card-compact.popular {
+  border: 2px solid #4f46e5;
+  background: #faf5ff;
+}
+
+.popular-badge-small {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4f46e5;
+  color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.plan-name-small {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+/* Price Small */
+.plan-price-small {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+  margin-bottom: 0.3rem;
+}
+
+.currency-small {
+  font-size: 0.9rem;
+  color: #4f46e5;
+  align-self: flex-start;
+  margin-top: 0.2rem;
+}
+
+.amount-small {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1;
+}
+
+.period-small {
+  color: #6b7280;
+  font-size: 0.8rem;
+  align-self: flex-end;
+  margin-bottom: 0.2rem;
+}
+
+.original-price-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.strike-small {
+  color: #9ca3af;
+  text-decoration: line-through;
+}
+
+.discount-small {
+  background: #10b981;
+  color: white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+/* Specs Compact */
+.specs-compact {
+  background: #f8fafc;
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin: 0.8rem 0;
+  font-size: 0.85rem;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-label {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.spec-value {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Features Compact */
+.features-compact {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+}
+
+.features-compact li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0;
+  color: #4b5563;
+}
+
+.feature-icon-small {
+  color: #10b981;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+/* Button Small */
+.plan-btn-small {
+  width: 100%;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.3rem;
+}
+
+.plan-btn-small:hover {
+  background: #4338ca;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(79,70,229,0.3);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .pricing-grid-compact {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  .hero-title-small {
+    font-size: 1.8rem;
+  }
+
+  .amount-small {
+    font-size: 1.8rem;
+  }
+}

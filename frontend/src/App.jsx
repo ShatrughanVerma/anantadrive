@@ -4,10 +4,14 @@ import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'  // Import SignupPage
 import CartPage from './pages/CartPage'
+import WebHostingPage from './pages/WebHostingPage'
+import CloudHostingPage from './pages/CloudHostingPage'
 
 function App() {
   return (
     <Routes>
+      <Route path="/cloud-hosting" element={<CloudHostingPage />} />
+      <Route path="/web-hosting" element={<WebHostingPage />} />
       <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />  {/* Add this route */}
